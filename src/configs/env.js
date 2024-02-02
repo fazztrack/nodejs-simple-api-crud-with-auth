@@ -5,4 +5,5 @@ module.exports = {
   DB_NAME: process.env.DB_NAME || null,
   DB_USER: process.env.DB_USER || null,
   DB_PASS: process.env.DB_PASS || null,
+  JWT_SECRET: process.env.JWT_SECRET || ""
 }
